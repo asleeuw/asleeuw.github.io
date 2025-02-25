@@ -1,0 +1,141 @@
+
+
+body {
+    background-color: #3567b8;
+    color:rgb(255, 255, 255);
+    font-family: 'Poppins';
+}
+
+h1{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    display: block;
+    padding: 20px;
+    background-color: cornflowerblue;
+
+}
+
+h3{
+    display: block;
+}
+
+.navbar{
+    background-color: azure;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv a{
+    color: #3567b8;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: #0b102b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+    margin: auto;
+}
+
+.column img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8%;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin: 20px 0;
+    display: block;
+    margin: auto;
+}
+
+.intro {
+    font-size: 6rem;
+    flex: 2;
+    display: block;
+    margin: auto;
+}
+
+.intro_description {
+    flex: 1;
+    font-size: 2rem;
+    border-radius: 8%;
+    padding: 2rem;
+    border-width: thick;
+    border-style: solid;
+
+}
+
+.home_page_container {
+    display: flex;
+    min-height: 80vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.projects a{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.button_container {
+    display: flex;
+}
